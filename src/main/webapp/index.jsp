@@ -12,5 +12,10 @@
 </head>
 <body>
 <h1>Welcome to home page</h1>
+
+<a href="${pageContext.request.contextPath}/first">
+    First Servlet
+</a>
+
 </body>
 </html>

@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 @Controller
 public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home(Model model) {
         model.addAttribute("message", "Welcome to Spring MVC with Tomcat 10.1.6!");
         return "home";
